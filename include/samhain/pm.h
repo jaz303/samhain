@@ -9,6 +9,8 @@
 //   - Sleep mode (simple register access)
 //   - Interrupts (simple register access)
 //   - Reset cause (simple register access)
+//
+// TODO: AHBMASK is currently unimplemented
 
 #include "samhain/status.h"
 
