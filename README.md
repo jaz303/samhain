@@ -1,5 +1,31 @@
 # samhain
 
+## Target Chips
+
+  - SAMD11 (planned)
+  - SAMC2x (planned)
+  - SAMD21 (in-progress)
+  - SAMD51 (planned)
+
+## Plan
+
+  - Implement baseline on SAMD21:
+    - clock
+    - power manager
+    - delay
+    - GPIO
+    - delay
+    - timer
+    - SERCOM
+    - Drivers
+      - UART
+      - SPI master
+      - I2C master
+      - I2C slave
+      - PWM
+      - Timer
+  - Porting
+
 ## TODO
 
   - SERCOM helper functions for UART
